@@ -1,0 +1,84 @@
+*{margin:0;padding:0;}
+body{background:#000;font-family:'Abel', Arial, Helvetica;}
+img{ border:none;}
+iframe{
+ width:853px;
+ height:480px;
+}
+.main{width:960px;margin:0 auto;margin-top:180px;text-align:center;}
+.main>a{
+ text-decoration:none;
+ border:none;
+}
+.topbg{width:100%!important;min-height:100%;background-repeat:no-repeat;background-size:cover;position:fixed;top:0px;left:0px;z-index:-10;background-position:center center;}
+.box{
+ width:880px;
+ margin-top:30px;padding-top:30px;padding-left:40px;padding-right:40px;padding-bottom:50px;
+ font-size:20px;text-align:left;border-top-right-radius:100px;
+}
+.box h2{
+ font-size:40px;
+}
+.color1{
+ background-color:#f1ca37;
+ color:#fff;
+}
+.color2{
+ background-color:#36b476;
+ color:#fff;
+}
+.color3{
+ background-color:#f17240;color:#fff;
+}
+.color4{
+ background-color:#282828;color:#fff;
+}
+.whatisvalotalive{text-align:center;}
+.business{}
+.wall{}
+.why{}
+.some{}
+.why>img{width:62px;padding-left:20px;}
+.icon{float:right;text-align:right;padding-top:40px;padding-left:30px;}
+.footer{color:#c0c0c0;font-size:14px;padding-bottom:50px;text-align:left;}
+
+@media screen and (max-width:960px){
+.main{width:100vw;margin-top:18.75vw;}
+.box{
+width:85vw;
+margin-top:3.75vw;
+margin-left:0vw;
+margin-right:5vw;
+padding-top:3.75vw;
+padding-left:5vw;
+padding-right:5vw;
+padding-bottom:6.25vw;
+text-align:left;
+border-top-right-radius:11.36vw;
+font-size:16px;
+}
+.box>h2{
+ font-size:24px;font-weight:normal;
+}
+.icon{
+ width:16.6vw;
+}
+.why>img{width:6vw;padding-bottom:10px;}
+iframe{
+ width:85vw;
+ height:47.8125vw;
+}
+.footer{
+ font-size:10px;
+ padding-bottom:6.25vw;
+ padding-left:5vw;
+ margin:0;
+}
+.main>a>img{
+ width:31.25vw;
+}
+}
+
+
+
+
